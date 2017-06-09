@@ -37,6 +37,7 @@ class TollFreeTest extends HolodeckTestCase {
             200,
             '
             {
+                "count": 1,
                 "end": 0,
                 "first_page_uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/IncomingPhoneNumbers/TollFree.json?PageSize=1&Page=0",
                 "incoming_phone_numbers": [
@@ -54,6 +55,7 @@ class TollFreeTest extends HolodeckTestCase {
                         "date_updated": "Thu, 30 Jul 2015 23:19:04 +0000",
                         "friendly_name": "(808) 925-5327",
                         "phone_number": "+18089255327",
+                        "origin": "origin",
                         "sid": "PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                         "sms_application_sid": "",
                         "sms_fallback_method": "POST",
@@ -97,6 +99,7 @@ class TollFreeTest extends HolodeckTestCase {
             200,
             '
             {
+                "count": 0,
                 "end": 0,
                 "first_page_uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/IncomingPhoneNumbers/TollFree.json?PageSize=1&Page=0",
                 "incoming_phone_numbers": [],
@@ -160,6 +163,7 @@ class TollFreeTest extends HolodeckTestCase {
                 "date_updated": "Thu, 30 Jul 2015 23:19:04 +0000",
                 "friendly_name": "(808) 925-5327",
                 "phone_number": "+18089255327",
+                "origin": "origin",
                 "sid": "PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                 "sms_application_sid": "",
                 "sms_fallback_method": "POST",

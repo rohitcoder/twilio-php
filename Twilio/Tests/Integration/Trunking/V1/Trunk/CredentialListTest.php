@@ -156,6 +156,7 @@ class CredentialListTest extends HolodeckTestCase {
                 ],
                 "meta": {
                     "page": 0,
+                    "count": 1,
                     "page_size": 50,
                     "first_page_url": "https://trunking.twilio.com/v1/Trunks/TKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/CredentialLists?PageSize=50&Page=0",
                     "previous_page_url": null,
@@ -181,6 +182,7 @@ class CredentialListTest extends HolodeckTestCase {
                 "credential_lists": [],
                 "meta": {
                     "page": 0,
+                    "count": 0,
                     "page_size": 50,
                     "first_page_url": "https://trunking.twilio.com/v1/Trunks/TKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/CredentialLists?PageSize=50&Page=0",
                     "previous_page_url": null,

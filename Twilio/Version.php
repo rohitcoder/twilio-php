@@ -8,11 +8,6 @@ use Twilio\Http\Response;
 
 abstract class Version {
     /**
-     * @const int MAX_PAGE_SIZE largest page the Twilio API will return
-     */
-    const MAX_PAGE_SIZE = 1000;
-
-    /**
      * @var \Twilio\Domain $domain
      */
     protected $domain;
@@ -156,12 +151,12 @@ abstract class Version {
 
         if ($limit) {
             if (is_null($pageSize)) {
-                $pageSize = min($limit, self::MAX_PAGE_SIZE);
+                $pageSize = $limit;
             }
             $pageLimit = (int)(ceil($limit / (float)$pageSize));
         }
 
-        $pageSize = min($pageSize, self::MAX_PAGE_SIZE);
+        $pageSize = $pageSize;
 
         return array(
             'limit' => $limit ?: Values::NONE,

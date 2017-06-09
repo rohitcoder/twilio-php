@@ -146,7 +146,8 @@ class KeyTest extends HolodeckTestCase {
                 "page_size": 50,
                 "start": 0,
                 "next_page_uri": null,
-                "page": 0
+                "page": 0,
+                "count": 1
             }
             '
         ));
@@ -170,7 +171,8 @@ class KeyTest extends HolodeckTestCase {
                 "page_size": 50,
                 "start": 0,
                 "next_page_uri": null,
-                "page": 0
+                "page": 0,
+                "count": 0
             }
             '
         ));

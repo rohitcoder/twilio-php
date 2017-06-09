@@ -42,6 +42,7 @@ class ReservationTest extends HolodeckTestCase {
                     "key": "reservations",
                     "next_page_url": null,
                     "page": 0,
+                    "count": 1,
                     "page_size": 50,
                     "previous_page_url": null,
                     "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workers/WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Reservations"
@@ -86,6 +87,7 @@ class ReservationTest extends HolodeckTestCase {
                     "key": "reservations",
                     "next_page_url": null,
                     "page": 0,
+                    "count": 0,
                     "page_size": 50,
                     "previous_page_url": null,
                     "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workers/WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Reservations"

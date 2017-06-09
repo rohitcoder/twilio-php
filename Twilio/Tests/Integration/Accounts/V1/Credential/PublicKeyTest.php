@@ -42,6 +42,7 @@ class PublicKeyTest extends HolodeckTestCase {
                     "key": "credentials",
                     "next_page_url": null,
                     "page": 0,
+                    "count": 0,
                     "page_size": 50,
                     "previous_page_url": null,
                     "url": "https://accounts.twilio.com/v1/Credentials/PublicKeys?PageSize=50&Page=0"
@@ -76,6 +77,7 @@ class PublicKeyTest extends HolodeckTestCase {
                     "key": "credentials",
                     "next_page_url": null,
                     "page": 0,
+                    "count": 1,
                     "page_size": 50,
                     "previous_page_url": null,
                     "url": "https://accounts.twilio.com/v1/Credentials/PublicKeys?PageSize=50&Page=0"

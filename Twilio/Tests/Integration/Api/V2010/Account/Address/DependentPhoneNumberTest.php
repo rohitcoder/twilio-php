@@ -37,6 +37,7 @@ class DependentPhoneNumberTest extends HolodeckTestCase {
             200,
             '
             {
+                "count": 1,
                 "dependent_phone_numbers": [
                     {
                         "address_requirements": "any",
@@ -78,6 +79,7 @@ class DependentPhoneNumberTest extends HolodeckTestCase {
             200,
             '
             {
+                "count": 0,
                 "dependent_phone_numbers": [],
                 "first_page_uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Addresses/ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/DependentPhoneNumbers.json?Page=0&PageSize=50",
                 "next_page_uri": null,

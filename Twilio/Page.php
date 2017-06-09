@@ -10,6 +10,7 @@ use Twilio\Http\Response;
 
 abstract class Page implements \Iterator {
     protected static $metaKeys = array(
+        'count',
         'end',
         'first_page_uri',
         'next_page_uri',

@@ -50,6 +50,7 @@ class CredentialListTest extends HolodeckTestCase {
                         "uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/SIP/CredentialLists/CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.json"
                     }
                 ],
+                "count": 1,
                 "first_page_uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/SIP/CredentialLists.json?PageSize=50&Page=0",
                 "next_page_uri": null,
                 "page": 0,
@@ -73,6 +74,7 @@ class CredentialListTest extends HolodeckTestCase {
             '
             {
                 "credential_lists": [],
+                "count": 0,
                 "first_page_uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/SIP/CredentialLists.json?PageSize=50&Page=0",
                 "next_page_uri": null,
                 "page": 0,

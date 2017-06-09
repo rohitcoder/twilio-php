@@ -50,6 +50,7 @@ class IncomingPhoneNumberTest extends HolodeckTestCase {
                 "emergency_status": "Inactive",
                 "emergency_address_sid": "ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                 "friendly_name": "(808) 925-5327",
+                "origin": "origin",
                 "phone_number": "+18089255327",
                 "sid": "PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                 "sms_application_sid": "",
@@ -111,6 +112,7 @@ class IncomingPhoneNumberTest extends HolodeckTestCase {
                 "emergency_status": "Active",
                 "emergency_address_sid": "ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                 "friendly_name": "(808) 925-5327",
+                "origin": "origin",
                 "phone_number": "+18089255327",
                 "sid": "PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                 "sms_application_sid": "",
@@ -185,6 +187,7 @@ class IncomingPhoneNumberTest extends HolodeckTestCase {
             200,
             '
             {
+                "count": 1,
                 "end": 0,
                 "first_page_uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/IncomingPhoneNumbers.json?PageSize=1&Page=0",
                 "incoming_phone_numbers": [
@@ -203,6 +206,7 @@ class IncomingPhoneNumberTest extends HolodeckTestCase {
                         "emergency_status": "Active",
                         "emergency_address_sid": "ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                         "friendly_name": "(808) 925-5327",
+                        "origin": "origin",
                         "phone_number": "+18089255327",
                         "sid": "PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                         "sms_application_sid": "",
@@ -246,6 +250,7 @@ class IncomingPhoneNumberTest extends HolodeckTestCase {
             200,
             '
             {
+                "count": 0,
                 "end": 0,
                 "first_page_uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/IncomingPhoneNumbers.json?PageSize=1&Page=0",
                 "incoming_phone_numbers": [],
@@ -302,6 +307,7 @@ class IncomingPhoneNumberTest extends HolodeckTestCase {
                 "emergency_status": "Active",
                 "emergency_address_sid": "ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                 "friendly_name": "(808) 925-5327",
+                "origin": "origin",
                 "phone_number": "+18089255327",
                 "sid": "PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                 "sms_application_sid": "",

@@ -92,36 +92,6 @@ class VersionTest extends UnitTest {
                 Values::NONE, Values::NONE, Values::NONE,
             ),
             array(
-                'Limit Specified - Under Max Page Size',
-                Version::MAX_PAGE_SIZE - 1, null,
-                Version::MAX_PAGE_SIZE - 1, Version::MAX_PAGE_SIZE - 1, 1,
-            ),
-            array(
-                'Limit Specified - At Max Page Size',
-                Version::MAX_PAGE_SIZE, null,
-                Version::MAX_PAGE_SIZE, Version::MAX_PAGE_SIZE, 1,
-            ),
-            array(
-                'Limit Specified - Over Max Page Size',
-                Version::MAX_PAGE_SIZE + 1, null,
-                Version::MAX_PAGE_SIZE + 1, Version::MAX_PAGE_SIZE, 2,
-            ),
-            array(
-                'Page Size Specified - Under Max Page Size',
-                null, Version::MAX_PAGE_SIZE - 1,
-                Values::NONE, Version::MAX_PAGE_SIZE - 1, Values::NONE,
-            ),
-            array(
-                'Page Size Specified - At Max Page Size',
-                null, Version::MAX_PAGE_SIZE,
-                Values::NONE, Version::MAX_PAGE_SIZE, Values::NONE,
-            ),
-            array(
-                'Page Size Specified - Over Max Page Size',
-                null, Version::MAX_PAGE_SIZE + 1,
-                Values::NONE, Version::MAX_PAGE_SIZE, Values::NONE
-            ),
-            array(
                 'Limit less than Page Size',
                 50, 100,
                 50, 100, 1,
